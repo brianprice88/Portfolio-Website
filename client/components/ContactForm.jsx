@@ -1,6 +1,8 @@
 import React, { useReducer } from 'react'
+import axios from 'axios'
 
 export default function ContactForm() {
+    const URI = 'http://localhost:3000/contactme'
 
     const initialFormInfo = { name: '', email: '', subject: '', message: '' }
 
@@ -19,10 +21,11 @@ export default function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formInfo)
+        axios.post(URI, formInfo)
+        document.getElementById('contactme').reset()
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form id='contactme' onSubmit={handleSubmit}>
 
             <div className='ContactFormrow'>
                 <div className='col-25'>
