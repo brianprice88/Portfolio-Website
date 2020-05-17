@@ -21,8 +21,10 @@ export default function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        axios.post(URI, formInfo)
         document.getElementById('contactme').reset()
+        axios.post(URI, formInfo)
+            .then(res => confirm(res.data))
+            .catch(err => confirm(err.data))
     }
     return (
         <form id='contactme' onSubmit={handleSubmit}>

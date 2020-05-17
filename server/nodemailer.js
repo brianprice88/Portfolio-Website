@@ -16,15 +16,15 @@ module.exports = {
         });
 
         const mailOptions = {
-            from: name, // gmail automatically changes 'from' address to authenticated address
+            from: name,
             to: gmail.user,
-            subject: `[PORTFOLIO SITE] From ${email} re: ${subject}`,
+            subject: `From ${name} (${email}) re: ${subject}`,
             text: message
         };
 
         transporter.sendMail(mailOptions, function (err, info) {
-            if (err) { console.error(err) }
-            else { res.send('success') }
+            if (err) { res.send('Sorry, there was an error sending your message.  Please try again.') }
+            else { res.send('Message sent successfully!') }
         })
 
     }
