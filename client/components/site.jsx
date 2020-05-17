@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ContactForm from './ContactForm.jsx'
 
 export default function Site () {
     return (
-        <div>
-        <h1>hello world</h1>
+        <div id='ContactForm'>
+        < ContactForm />
         </div>
     )
 }
