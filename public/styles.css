@@ -2,16 +2,126 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f2f2f2;
+
 }
+
+/* Projects -------- */
+
+.Projectsmain {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial;
+    padding: 20px;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  video {
+      width: 100%;
+  }
+
+  .blinkingText {
+      animation: blink 2s infinite
+  }
+
+  @keyframes blink{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+  
+  .Projectsrow,
+  .Projectsrow > .column {
+    padding: 8px;
+  }
+  
+  .ProjectscolumnMVP {
+    float: left;
+    width: 50%;
+    height: 100%
+  }
+
+  .ProjectscolumnSDC {
+      float: left;
+      width: 33%;
+  }
+
+
+  .ProjectscolumnSDC img {
+    transition: transform .2s
+  }
+
+  .ProjectscolumnSDC #SDCimg1:hover {
+      transform: translate(100px) scale(2.0)
+  }
+
+  .ProjectscolumnSDC #SDCimg2:hover {
+    transform: scale(2.5)
+}
+
+.ProjectscolumnSDC #SDCimg3:hover  {
+    transform: translate(-90px) scale(2.0)
+}
+  
+  .Projectsrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .Projectsheader {
+      background-color: teal;
+  }
+
+  .Projectsheader a:hover {
+    color:#ffcc00;
+  }
+  
+  .Projectscontent {
+    padding: 10px;
+    text-align: center;
+    line-height: normal;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ProjectscolumnSDC {
+        width: 100%;
+      }
+    .ProjectscolumnMVP {
+        width: 100%;
+      }
+    .ProjectscolumnMVP img {
+        height: 800px;
+      }
+
+     .ProjectscolumnSDC #SDCimg1:hover {
+        transform: scale(1.2)
+      }
+
+      .ProjectscolumnSDC #SDCimg2:hover {
+        transform: scale(1.2)
+      }
+
+      .ProjectscolumnSDC #SDCimg3:hover {
+        transform: scale(1.2)
+      }
+      
+      
+  }
 
 /* Contact Form ------ */
 
 #ContactForm {
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 input[type=text], input[type=email], textarea {
