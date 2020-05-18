@@ -8,9 +8,9 @@ body {
 
 /* Projects -------- */
 
-.main {
+.Projectsmain {
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     font-family: Arial;
     padding: 20px;
   }
@@ -20,51 +20,98 @@ body {
   }
 
   video {
-      width: 100%
+      width: 100%;
   }
-  
-  .row {
-    margin: 8px -16px;
+
+  .blinkingText {
+      animation: blink 2s infinite
   }
+
+  @keyframes blink{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
   
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
+  .Projectsrow,
+  .Projectsrow > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
-  .column {
+  .ProjectscolumnMVP {
     float: left;
-    width: 25%;
+    width: 50%;
+    height: 100%
   }
+
+  .ProjectscolumnSDC {
+      float: left;
+      width: 33%;
+  }
+
+
+  .ProjectscolumnSDC img {
+    transition: transform .2s
+  }
+
+  .ProjectscolumnSDC #SDCimg1:hover {
+      transform: translate(100px) scale(2.0)
+  }
+
+  .ProjectscolumnSDC #SDCimg2:hover {
+    transform: scale(2.5)
+}
+
+.ProjectscolumnSDC #SDCimg3:hover  {
+    transform: translate(-90px) scale(2.0)
+}
   
-  /* Clear floats after rows */
-  .row:after {
+  .Projectsrow:after {
     content: "";
     display: table;
     clear: both;
   }
+
+  .Projectsheader {
+      background-color: teal;
+  }
+
+  .Projectsheader a:hover {
+    color:#ffcc00;
+  }
   
-  .content {
-    background-color: white;
+  .Projectscontent {
     padding: 10px;
     text-align: center;
     line-height: normal;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
+    .ProjectscolumnSDC {
+        width: 100%;
+      }
+    .ProjectscolumnMVP {
+        width: 100%;
+      }
+    .ProjectscolumnMVP img {
+        height: 800px;
+      }
+
+     .ProjectscolumnSDC #SDCimg1:hover {
+        transform: scale(1.2)
+      }
+
+      .ProjectscolumnSDC #SDCimg2:hover {
+        transform: scale(1.2)
+      }
+
+      .ProjectscolumnSDC #SDCimg3:hover {
+        transform: scale(1.2)
+      }
+      
+      
   }
 
 /* Contact Form ------ */
@@ -72,8 +119,9 @@ body {
 #ContactForm {
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 input[type=text], input[type=email], textarea {
