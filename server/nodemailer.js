@@ -26,7 +26,5 @@ module.exports = {
             if (err) { res.send('Sorry, there was an error sending your message.  Please try again.') }
             else { res.send('Message sent successfully!') }
         })
-
     }
-
 }

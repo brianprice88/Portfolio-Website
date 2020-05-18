@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f2f2f2;
-
 }
 
 /* Projects -------- */
@@ -110,8 +109,7 @@ body {
       .ProjectscolumnSDC #SDCimg3:hover {
         transform: scale(1.2)
       }
-      
-      
+           
   }
 
 /* Contact Form ------ */
