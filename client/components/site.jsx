@@ -10,7 +10,7 @@ export default function Site () {
         <div id='About'>
         <About />
         </div>
-        
+
         <div id='Projects'>
         <Projects />
         </div>
@@ -22,6 +22,7 @@ export default function Site () {
         <div id='ContactForm'>
         <ContactForm />
         </div>
+        
     </div>
     )
 }
