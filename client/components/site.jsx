@@ -1,11 +1,16 @@
 import React from 'react';
 import ContactForm from './ContactForm.jsx';
 import Projects from './Projects.jsx';
-import About from './About.jsx'
+import About from './About.jsx';
+import Navbar from './Navbar.jsx'
 
 export default function Site () {
     return (
     <div>
+
+        <div id='Navbar'>
+        <Navbar />
+        </div>
 
         <div id='About'>
         <About />
@@ -22,7 +27,7 @@ export default function Site () {
         <div id='ContactForm'>
         <ContactForm />
         </div>
-        
+
     </div>
     )
 }
