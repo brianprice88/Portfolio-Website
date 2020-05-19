@@ -1,12 +1,18 @@
 import React from 'react';
 import ContactForm from './ContactForm.jsx';
 import Projects from './Projects.jsx';
+import About from './About.jsx'
 
 export default function Site () {
     return (
     <div>
+
+        <div id='About'>
+        <About />
+        </div>
+        
         <div id='Projects'>
-        < Projects />
+        <Projects />
         </div>
 
         <div id='Resume'>
@@ -14,7 +20,7 @@ export default function Site () {
         </div>
 
         <div id='ContactForm'>
-        < ContactForm />
+        <ContactForm />
         </div>
     </div>
     )
