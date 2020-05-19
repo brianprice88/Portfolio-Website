@@ -2,31 +2,29 @@ import React from 'react';
 import ContactForm from './ContactForm.jsx';
 import Projects from './Projects.jsx';
 import About from './About.jsx';
-import Navbar from './Navbar.jsx'
+import Navbar from './Navbar.jsx';
+import Resume from './Resume.jsx';
+import Error from './Error.jsx';
+import {Route, Switch } from 'react-router-dom';
 
 export default function Site () {
     return (
     <div>
 
-        <div id='Navbar'>
         <Navbar />
-        </div>
+        <Switch>
 
-        <div id='About'>
-        <About />
-        </div>
+        <Route path='/' exact component={About} />
 
-        <div id='Projects'>
-        <Projects />
-        </div>
+        <Route path='/Projects' component={Projects} />
 
-        <div id='Resume'>
-        <iframe id='displayResume' src='assets/BrianPriceResume.pdf'></iframe>
-        </div>
+        <Route path='/Resume' component={Resume} />
 
-        <div id='ContactForm'>
-        <ContactForm />
-        </div>
+        <Route path='/Contact' component={ContactForm} />
+
+        <Route component={Error} />
+
+        </Switch>
 
     </div>
     )

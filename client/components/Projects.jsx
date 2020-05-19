@@ -2,7 +2,7 @@ import React from 'React'
 
 export default function Projects() {
     return (
-        <div>
+        <div id='Projects'>
 
             <div className="Projectsrow">
             <div className="Projectscontent">

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
+
 
 export default function Navbar() {
     
@@ -12,12 +14,14 @@ export default function Navbar() {
     }
 
     return (
+        <div id='Navbar'>
         <div className = 'topnav' id='myTopnav'>
-        <a href='#About'>About</a>
-        <a href='#Projects'>Projects</a>
-        <a href='#Resume'>Resume</a>
-        <a href='#ContactForm'>Contact</a>
-        <a className='icon' onClick = {toggleNavbar}>&#9776;</a>      
+        <Link to='/'>About</Link>
+        <Link to='/Projects'>Projects</Link>
+        <Link to='Resume'>Resume</Link>
+        <Link to='/Contact'>Contact</Link>
+        <a className='toggleIcon' onClick = {toggleNavbar}>&#9776;</a>      
+        </div>
         </div>
     )
 }
