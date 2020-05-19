@@ -27,6 +27,8 @@ export default function ContactForm() {
             .catch(err => confirm(err.data))
     }
     return (
+        <div id='ContactForm'>
+
         <form id='contactme' onSubmit={handleSubmit}>
 
             <div className='ContactFormrow'>
@@ -70,6 +72,7 @@ export default function ContactForm() {
             </div>
 
         </form>
+        </div>
 
     )
 
