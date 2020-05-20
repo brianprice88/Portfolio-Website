@@ -28,6 +28,10 @@ export default function ContactForm() {
     }
     return (
         <div id='ContactForm'>
+        
+        <div className='scroll-left'>
+        <p>Get in touch</p>
+        </div>
 
         <form id='contactme' onSubmit={handleSubmit}>
 
