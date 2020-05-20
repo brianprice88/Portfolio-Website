@@ -123,7 +123,9 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-
+            <div style={{textAlign: 'center'}}>
+            <a id='backToTop' href='#Navbar'>Back to top</a>
+            </div>
         </div>
     )
 }
