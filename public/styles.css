@@ -32,9 +32,8 @@ html {
     display: none;
   }
     
-  .topnav a:hover {
-    background-color: #555;
-    color: white;
+  .topnav a:not(:last-child):hover {
+    color: cyan;
   }
 
 @media screen and (max-width: 600px) {
@@ -134,16 +133,25 @@ html {
       width: 100%;
   }
 
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: square inside;
+  }
+
   .blinkingText {
       animation: blink 2s infinite
   }
 
   @keyframes blink{
-    0%{     color: #000;    }
-    49%{    color: #000; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #000;    }
+    0%{  color: #000;    }
+    49%{ color: #000; }
+    60%{ color: transparent; }
+    99%{ color:transparent;  }
+    100%{color: #000;    }
 }
   
   .ProjectscolumnMVP {
@@ -234,22 +242,22 @@ html {
 /* Contact Form ------ */
 
 #ContactForm {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
 }
 
 input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
   }
 
   textarea {
-      height: 200px
+    height: 200px
   }
   
   label {
