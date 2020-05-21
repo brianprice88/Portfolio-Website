@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
 body {
     margin: 0 auto;
     padding: 20px;
@@ -5,6 +7,7 @@ body {
     background-color: #f2f2f2;
     max-width: 1000px;
     font-family: Arial;
+    user-select: none;
 }
 
 html {
@@ -16,6 +19,7 @@ html {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    font-family: 'Lobster', cursive;
   }
   
   .topnav a {
@@ -25,7 +29,7 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
   }
   
   .topnav .toggleIcon {
@@ -69,21 +73,39 @@ html {
     }
   }
 
-/* About --------- */
+/* Home --------- */
 
-  #About {
-      padding-top: 50px;
+  @keyframes textglow {
+    from {
+      color: #fff;
+      text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    }   
+    to {
+       color: gray;
+      text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    }
   }
 
-  .AboutHeader {
+  .HomeHeader {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background-color: red;
     font-size: 30px;
+    font-family: 'Codystar';
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-transform: uppercase;
+    animation: textglow 3s ease-in-out infinite alternate;
   }
 
-  #About img {
+  .HomeHeader img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+  }
+
+  .Iconscol img {
       height: 50px;
       width: 50px;
   }
@@ -122,10 +144,6 @@ html {
 
 /* Projects -------- */
 
-  #Projects {
-      padding-top: 50px;
-  }
-
   img {
       width: 100%;
   }
@@ -135,21 +153,22 @@ html {
   }
 
   .blinkingText {
-      animation: blink 2s infinite
+      animation: blink 2s infinite;
   }
 
   @keyframes blink{
-    0%{  color: #000;    }
-    49%{ color: #000; }
-    60%{ color: transparent; }
-    99%{ color:transparent;  }
-    100%{color: #000;    }
+    0%{ color: red;}
+    49%{ color: red;}
+    60%{ color: transparent;}
+    99%{ color:transparent;}
+    100%{color: red;}
 }
   
   .ProjectscolumnMVP {
     float: left;
     width: 50%;
-    height: 100%
+    height: 100%;
+    background-color: gray;
   }
 
   .ProjectscolumnSDC {
@@ -180,7 +199,18 @@ html {
   }
 
   .Projectsheader {
-      background-color: teal;
+      background-color: #7c795d;
+  }
+
+  .Projectsheader strong {
+    font-family: 'Oleo Script', cursive;
+    color: #2CA4B0;
+    font-size: 30px
+  }
+
+  .Projectsheader a {
+    color: #CEF0D4;
+    text-transform: uppercase;
   }
 
   .Projectsheader a:hover {
@@ -221,8 +251,7 @@ html {
   }
 
   figure {
-    border: 1px #cccccc solid;
-    padding: 4px;
+    border: 1px 1px 1px 1px #cccccc solid;
     margin: auto; 
   }
 
@@ -232,6 +261,12 @@ html {
   font-style: italic;
   padding: 2px;
   text-align: center;
+  }
+
+  .projectDivider {
+    width: 95%;
+    border: 15px solid green;
+    border-radius: 5px;
   }
 
   #backToTop {
@@ -256,14 +291,8 @@ html {
 
   /* Resume -------- */
 
-  #Resume {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px
-  }
-
   #displayResume {
-      width: 100%;
+      width: 99%;
       height: 850px;
       border: 5px solid gold
   }
@@ -311,6 +340,7 @@ input[type=text], input[type=email], textarea {
     float: right;
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-size: 16px;
   }
 
   input:hover[type=submit] {
@@ -362,26 +392,47 @@ input[type=text], input[type=email], textarea {
     }
   }
 
-  .scroll-left {
+  .scroll-right {
     position: relative;
     height: 50px;
     margin-bottom: 10px;
+    overflow-wrap: normal;
   }
 
-  @keyframes scroll-left {
-    0%   { transform: translateX(100%);}
-    100% { transform: translateX(-100%);}
+  @keyframes scroll-right {
+    0%   { transform: translateX(-10%);}
+    100% { transform: translateX(98%);}
      }
 
-  .scroll-left p {
+  .scroll-right p {
     font-size: 50px;
     position: absolute;
-    color: #ffcc00;
-    font-family: Franklin Gothic Medium;
     width: 100%;
     height: 100%;
     margin: 0;
-    line-height: 50px;
-    text-align: center;
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-right 10s linear infinite;
 }
+
+/* Error ---------- */
+
+#error {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+  }
+  
+  .closeerrorbtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closeerrorbtn:hover {
+    color: black;
+  }

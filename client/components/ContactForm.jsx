@@ -29,8 +29,8 @@ export default function ContactForm() {
     return (
         <div id='ContactForm'>
         
-        <div className='scroll-left'>
-        <p>Get in touch</p>
+        <div className='scroll-right'>
+        <p><i class="fa fa-envelope-o"></i></p>
         </div>
 
         <form id='contactme' onSubmit={handleSubmit}>
@@ -40,7 +40,7 @@ export default function ContactForm() {
                     <label>Your Name</label>
                 </div>
                 <div className='col-75'>
-                    <input type='text' name='name' placeholder='Your Name' required onChange={addNewInfo}></input>
+                    <input type='text' name='name' placeholder='First and Last Name' required onChange={addNewInfo}></input>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@ export default function ContactForm() {
                     <label>Your Email</label>
                 </div>
                 <div className='col-75'>
-                    <input type='email' name='email' placeholder='Your Email' required onChange={addNewInfo}></input>
+                    <input type='email' name='email' placeholder='Email Address' required onChange={addNewInfo}></input>
                 </div>
             </div>
 
