@@ -16,6 +16,7 @@ html {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    font-family: 'Lobster', cursive;
   }
   
   .topnav a {
@@ -25,7 +26,7 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
   }
   
   .topnav .toggleIcon {
@@ -311,6 +312,7 @@ input[type=text], input[type=email], textarea {
     float: right;
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-size: 16px;
   }
 
   input:hover[type=submit] {
@@ -385,3 +387,27 @@ input[type=text], input[type=email], textarea {
     text-align: center;
     animation: scroll-left 10s linear infinite;
 }
+
+/* Error ---------- */
+
+#error {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+  }
+  
+  .closeerrorbtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closeerrorbtn:hover {
+    color: black;
+  }
