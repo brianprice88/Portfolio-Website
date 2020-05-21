@@ -18,6 +18,8 @@ export default function Projects() {
                     </figure>
                 </div>
             </div>
+            
+            <hr className='projectDivider'/>
 
             <div className="Projectsrow">
                 <div className="Projectscontent">
@@ -34,6 +36,8 @@ export default function Projects() {
                 </div>
             </div>
 
+            <hr className='projectDivider'/>
+
             <div className='Projectsrow'>
                 <div className='Projectscontent'>
                     <div className='Projectsheader'>
@@ -41,6 +45,7 @@ export default function Projects() {
                         <p><strong>Express, PostgreSQL, MongoDB</strong></p>
                         <a href='https://github.com/The-Good-Place-HRLA/Product-View-service' target="_blank">View the source code here</a>
                     </div>
+                    
                     <h1 className='blinkingText'>Hover over an image to enlarge it</h1>
                     <div className="ProjectscolumnSDC">
                         <div className="Projectscontent">
@@ -75,6 +80,8 @@ export default function Projects() {
                 </div>
             </div>
 
+            <hr className='projectDivider'/>
+
             <div className="Projectsrow">
                 <div className="Projectscontent">
                     <div className='Projectsheader'>
@@ -95,6 +102,8 @@ export default function Projects() {
                     </figure>
                 </div>
             </div>
+
+            <hr className='projectDivider'/>
 
             <div className="Projectsrow">
                 <div className='Projectscontent'>
@@ -127,8 +136,9 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
+
             <div className='footer'>
-                <a id='backToTop' href='#Navbar'>Go back to top</a>
+                <a id='backToTop' href='#Navbar'>Return to top</a>
             </div>
         </div>
     )

@@ -1,13 +1,14 @@
 import React from 'react';
 
-export default function About() {
+export default function Home() {
     return (
 
-        <div id='About'>
+        <div id='Home'>
 
-            <div className='AboutHeader'>
+            <div className='HomeHeader'>
                 <h1>Brian Price</h1>
                 <h2>Software Engineer</h2>
+                <img src='assets/picture.jpg' alt='picture of me'></img>
             </div>
 
             <div className='IconsRow'>

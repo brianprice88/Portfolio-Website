@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
 body {
     margin: 0 auto;
     padding: 20px;
@@ -71,21 +73,39 @@ html {
     }
   }
 
-/* About --------- */
+/* Home --------- */
 
-  #About {
-      padding-top: 50px;
+  @keyframes textglow {
+    from {
+      color: #fff;
+      text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    }   
+    to {
+       color: gray;
+      text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    }
   }
 
-  .AboutHeader {
+  .HomeHeader {
     padding: 60px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background-color: red;
     font-size: 30px;
+    font-family: 'Codystar';
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-transform: uppercase;
+    animation: textglow 3s ease-in-out infinite alternate;
   }
 
-  #About img {
+  .HomeHeader img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+  }
+
+  .Iconscol img {
       height: 50px;
       width: 50px;
   }
@@ -124,10 +144,6 @@ html {
 
 /* Projects -------- */
 
-  #Projects {
-      padding-top: 50px;
-  }
-
   img {
       width: 100%;
   }
@@ -137,21 +153,22 @@ html {
   }
 
   .blinkingText {
-      animation: blink 2s infinite
+      animation: blink 2s infinite;
   }
 
   @keyframes blink{
-    0%{  color: #000;    }
-    49%{ color: #000; }
-    60%{ color: transparent; }
-    99%{ color:transparent;  }
-    100%{color: #000;    }
+    0%{ color: red;}
+    49%{ color: red;}
+    60%{ color: transparent;}
+    99%{ color:transparent;}
+    100%{color: red;}
 }
   
   .ProjectscolumnMVP {
     float: left;
     width: 50%;
-    height: 100%
+    height: 100%;
+    background-color: gray;
   }
 
   .ProjectscolumnSDC {
@@ -192,8 +209,8 @@ html {
   }
 
   .Projectsheader a {
-      color: #CEF0D4;
-      text-transform: uppercase;
+    color: #CEF0D4;
+    text-transform: uppercase;
   }
 
   .Projectsheader a:hover {
@@ -234,8 +251,7 @@ html {
   }
 
   figure {
-    border: 1px #cccccc solid;
-    padding: 4px;
+    border: 1px 1px 1px 1px #cccccc solid;
     margin: auto; 
   }
 
@@ -245,6 +261,12 @@ html {
   font-style: italic;
   padding: 2px;
   text-align: center;
+  }
+
+  .projectDivider {
+    width: 95%;
+    border: 15px solid green;
+    border-radius: 5px;
   }
 
   #backToTop {
@@ -269,14 +291,8 @@ html {
 
   /* Resume -------- */
 
-  #Resume {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px
-  }
-
   #displayResume {
-      width: 100%;
+      width: 99%;
       height: 850px;
       border: 5px solid gold
   }
