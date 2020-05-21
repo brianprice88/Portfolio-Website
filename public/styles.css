@@ -5,6 +5,7 @@ body {
     background-color: #f2f2f2;
     max-width: 1000px;
     font-family: Arial;
+    user-select: none;
 }
 
 html {
@@ -181,7 +182,18 @@ html {
   }
 
   .Projectsheader {
-      background-color: teal;
+      background-color: #7c795d;
+  }
+
+  .Projectsheader strong {
+    font-family: 'Oleo Script', cursive;
+    color: #2CA4B0;
+    font-size: 30px
+  }
+
+  .Projectsheader a {
+      color: #CEF0D4;
+      text-transform: uppercase;
   }
 
   .Projectsheader a:hover {
@@ -368,6 +380,7 @@ input[type=text], input[type=email], textarea {
     position: relative;
     height: 50px;
     margin-bottom: 10px;
+    overflow-wrap: normal;
   }
 
   @keyframes scroll-left {

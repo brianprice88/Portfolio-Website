@@ -7,10 +7,11 @@ export default function Projects() {
             <div className="Projectsrow">
                 <div className="Projectscontent">
                     <div className='Projectsheader'>
-                        <h3>Rock Paper Scissors online multiplayer game</h3>
-                        <p>Technologies used: <strong>React, Socket.IO, Express</strong></p>
-                        <p>Play the game <a href='https://rock-paper-scissors-brianprice.herokuapp.com/' target="_blank">here!</a></p>
-                        <p>Or view the source code <a href='https://github.com/brianprice88/Rock-Paper-Scissors' target="_blank">here</a></p>
+                        <p><strong>Rock Paper Scissors</strong></p>
+                        <p><strong>React, Socket.IO, Express</strong></p>
+                        <a href='https://rock-paper-scissors-brianprice.herokuapp.com/' target="_blank">Play the game here!</a>
+                        <br/>
+                        <a href='https://github.com/brianprice88/Rock-Paper-Scissors' target="_blank">View the source code here</a>
                     </div>
                     <figure>
                     <video src="assets/RockPaperScissors.mov" autoPlay loop muted alt="Rock Paper Scissors" />
@@ -21,10 +22,11 @@ export default function Projects() {
             <div className="Projectsrow">
                 <div className="Projectscontent">
                     <div className='Projectsheader'>
-                        <h3>Minesweeper online game</h3>
-                        <p>Technologies used: <strong>HTML, CSS, JavaScript, MongoDB</strong></p>
-                        <p>Play the game <a href='https://minesweeper-brian-price.herokuapp.com/' target="_blank">here!</a></p>
-                        <p>Or view the source code <a href='https://github.com/brianprice88/Minesweeper' target="_blank">here</a></p>
+                        <p><strong>Minesweeper</strong></p>
+                        <p><strong>HTML, CSS, JavaScript, MongoDB</strong></p>
+                        <a href='https://minesweeper-brian-price.herokuapp.com/' target="_blank">Play the game here!</a>
+                        <br/>
+                        <a href='https://github.com/brianprice88/Minesweeper' target="_blank">View the source code here</a>
                     </div>
                     <figure>
                     <video src="assets/Minesweeper.mov" autoPlay loop muted alt="Minesweeper demo" />
@@ -35,10 +37,9 @@ export default function Projects() {
             <div className='Projectsrow'>
                 <div className='Projectscontent'>
                     <div className='Projectsheader'>
-
-                        <h3>REI Product View</h3>
-                        <p>Technologies used: <strong>Express, PostgresSQL, MongoDB</strong></p>
-                        <p>View the source code <a href='https://github.com/The-Good-Place-HRLA/Product-View-service' target="_blank">here</a></p>
+                        <p><strong>REI Product View</strong></p>
+                        <p><strong>Express, PostgreSQL, MongoDB</strong></p>
+                        <a href='https://github.com/The-Good-Place-HRLA/Product-View-service' target="_blank">View the source code here</a>
                     </div>
                     <h1 className='blinkingText'>Hover over an image to enlarge it</h1>
                     <div className="ProjectscolumnSDC">
@@ -77,9 +78,9 @@ export default function Projects() {
             <div className="Projectsrow">
                 <div className="Projectscontent">
                     <div className='Projectsheader'>
-                        <h3>Trafalgar trip page</h3>
-                        <p>Technologies used: <strong>React, Express, MongoDB</strong></p>
-                        <p>View the source code <a href='https://github.com/Front-End-Capstone-hrla34/Searchbar' target="_blank">here</a></p>
+                        <p><strong>Trafalgar trip page</strong></p>
+                        <p><strong>React, Express, MongoDB</strong></p>
+                        <a href='https://github.com/Front-End-Capstone-hrla34/Searchbar' target="_blank">View the source code here</a>
                     </div>
                     <figure>
                     <video src="assets/Trafalgar.mp4" autoPlay loop muted alt="Trafalgar trip page demo" />
@@ -98,10 +99,9 @@ export default function Projects() {
             <div className="Projectsrow">
                 <div className='Projectscontent'>
                     <div className='Projectsheader'>
-
-                        <h3>Geofencing-notification mobile app</h3>
-                        <p>Technologies used: <strong>React Native, GraphQL, and MongoDB</strong></p>
-                        <p>View the source code <a href='https://github.com/hrla34-MVP/Server-database' target="_blank">here</a></p>
+                        <p><strong>Geofencing-notification mobile app</strong></p>
+                        <p><strong>React Native, GraphQL, MongoDB</strong></p>
+                        <a href='https://github.com/hrla34-MVP/Server-database' target="_blank">View the source code here</a>
                     </div>
 
                     <div className="ProjectscolumnMVP">
@@ -128,7 +128,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className='footer'>
-                <a id='backToTop' href='#Navbar'>Back to top</a>
+                <a id='backToTop' href='#Navbar'>Go back to top</a>
             </div>
         </div>
     )
