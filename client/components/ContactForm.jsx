@@ -2,8 +2,8 @@ import React, { useReducer, useEffect } from 'react'
 import axios from 'axios'
 
 export default function ContactForm() {
-    const URI = 'http://localhost:3000/';
-    // const URI = 'https://brian-price-portfolio.herokuapp.com/'
+    // const URI = 'http://localhost:3000/';
+    const URI = 'https://brian-price-portfolio.herokuapp.com/'
 
     var code;
 

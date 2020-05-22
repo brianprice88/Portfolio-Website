@@ -5,7 +5,8 @@
   "main": "./server/index.js",
   "scripts": {
     "start": "node ./server/index.js",
-    "build": "webpack -d --watch",
+    "build": "webpack",
+    "webpack-dev": "webpack -d --watch",
     "development": "env NODE_ENV=development nodemon ./server/index.js"
   },
   "repository": {
