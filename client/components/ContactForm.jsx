@@ -2,7 +2,7 @@ import React, { useReducer } from 'react'
 import axios from 'axios'
 
 export default function ContactForm() {
-    const URI = 'http://localhost:3000/contactme'
+    const URI = 'http://localhost:3000/'
 
     const initialFormInfo = { name: '', email: '', subject: '', message: '' }
 
