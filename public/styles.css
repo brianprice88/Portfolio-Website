@@ -337,6 +337,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 30px;
+    margin-top: 10px;
     float: right;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -411,7 +412,11 @@ input[type=text], input[type=email], textarea {
     height: 100%;
     margin: 0;
     animation: scroll-right 10s linear infinite;
-}
+  }
+
+  canvas {
+    pointer-events: none;
+  }
 
 /* Error ---------- */
 
