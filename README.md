@@ -1,3 +1,3 @@
 # Portfolio-Website
 
-This is a site showcasing my work, resume, hopes, dreams, and all that jazz.
+The deployed site is viewable at https://brian-price-portfolio.herokuapp.com/.
