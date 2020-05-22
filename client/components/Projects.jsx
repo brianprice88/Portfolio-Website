@@ -9,7 +9,7 @@ export default function Projects() {
                     <div className='Projectsheader'>
                         <p><strong>Rock Paper Scissors</strong></p>
                         <p><strong>React, Socket.IO, Express</strong></p>
-                        <a href='https://rock-paper-scissors-brianprice.herokuapp.com/' target="_blank">Play the game here!</a>
+                        <a href='https://rock-paper-scissors-brianprice.herokuapp.com/' target="_blank">Play the game here</a>
                         <br/>
                         <a href='https://github.com/brianprice88/Rock-Paper-Scissors' target="_blank">View the source code here</a>
                     </div>
@@ -26,7 +26,7 @@ export default function Projects() {
                     <div className='Projectsheader'>
                         <p><strong>Minesweeper</strong></p>
                         <p><strong>HTML, CSS, JavaScript, MongoDB</strong></p>
-                        <a href='https://minesweeper-brian-price.herokuapp.com/' target="_blank">Play the game here!</a>
+                        <a href='https://minesweeper-brian-price.herokuapp.com/' target="_blank">Play the game here</a>
                         <br/>
                         <a href='https://github.com/brianprice88/Minesweeper' target="_blank">View the source code here</a>
                     </div>

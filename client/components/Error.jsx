@@ -10,7 +10,7 @@ export default function Error() {
   return (
     <div id="error">
       <span className="closeerrorbtn" onClick={closeError}>&times;</span>
-      <strong>Sorry, page not found!</strong>
+      <strong>Sorry, page not found</strong>
     </div>
 
   )

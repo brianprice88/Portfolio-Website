@@ -30,7 +30,7 @@ export default function ContactForm() {
         <div id='ContactForm'>
         
         <div className='scroll-right'>
-        <p><i class="fa fa-envelope-o"></i></p>
+        <p><i className="fa fa-envelope-o"></i></p>
         </div>
 
         <form id='contactme' onSubmit={handleSubmit}>
