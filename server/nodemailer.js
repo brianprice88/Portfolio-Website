@@ -7,12 +7,12 @@ module.exports = {
 
         const nodemailer = require('nodemailer');
 
-        let user = gmail.user;
-        let pass = gmail.password;
+        var user = gmail.user;
+        var pass = gmail.password;
 
-        if (NODE_ENV='production') { // for Heroku deployment, use the environment variables from there
+        if (process.env.NODE_ENV === 'production') { // for deployment, use the environment variables on Heroku
           user = process.env.user;
-          password = process.env.password
+          pass = process.env.password
         }
 
         const transporter = nodemailer.createTransport({

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./server/index.js",
     "build": "webpack",
-    "development": "nodemon ./server/index.js"
+    "development": "env NODE_ENV=development nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
