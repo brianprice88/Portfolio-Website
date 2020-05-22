@@ -4,8 +4,6 @@
   "description": "",
   "main": "./server/index.js",
   "scripts": {
-    "build": "webpack -d --watch",
-    "development": "nodemon ./server/index.js",
     "start": "node ./server/index.js"
   },
   "repository": {
