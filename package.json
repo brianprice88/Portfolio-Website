@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack -d --watch",
     "development": "nodemon ./server/index.js",
-    "production": "env NODE_env=production node ./server/index.js"
+    "start": "node ./server/index.js"
   },
   "repository": {
     "type": "git",

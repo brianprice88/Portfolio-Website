@@ -2,7 +2,8 @@ import React, { useReducer } from 'react'
 import axios from 'axios'
 
 export default function ContactForm() {
-    const URI = 'http://localhost:3000/'
+    // const URI = 'http://localhost:3000/';
+    const URI = 'https://brian-price-portfolio.herokuapp.com/'
 
     const initialFormInfo = { name: '', email: '', subject: '', message: '' }
 
