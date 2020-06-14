@@ -1,11 +1,14 @@
-import React from 'react';
-import ContactForm from './ContactForm.jsx';
-import Projects from './Projects.jsx';
-import Home from './Home.jsx';
+import React, {lazy} from 'react';
 import Navbar from './Navbar.jsx';
-import Resume from './Resume.jsx';
-import Error from './Error.jsx';
 import { Route, Switch } from 'react-router-dom';
+
+const Home = lazy(() => import('./Home.jsx'));
+const Projects = lazy(() => import('./Projects.jsx'));
+const Resume = lazy(() => import('./Resume.jsx'));
+const ContactForm = lazy(() => import('./ContactForm.jsx'));
+const Error = lazy(() => import('./Error.jsx'));
+
+
 
 export default function Site() {
     return (

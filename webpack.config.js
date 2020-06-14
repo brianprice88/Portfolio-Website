@@ -15,7 +15,8 @@ module.exports = {
         include : SRC_DIR,
         loader : 'babel-loader',
         query: {
-          presets: ['react', 'env']
+          presets: ['react', 'env'],
+          plugins: ["syntax-dynamic-import"]
        },
     },
     {

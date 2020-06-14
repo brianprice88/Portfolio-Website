@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Site from './components/site.jsx'
+import { BrowserRouter } from 'react-router-dom';
+import Site from './components/site.jsx';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <Site />
-    </BrowserRouter>,
+    <Suspense fallback={<div id='loading'></div>}>
+        <BrowserRouter>
+            <Site />
+        </BrowserRouter>
+    </Suspense>,
     document.getElementById('site'))
