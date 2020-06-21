@@ -18,7 +18,7 @@ module.exports = {
 
         const mailOptions = {
             from: name,
-            to: gmail.user,
+            to: user,
             subject: `From ${name} (${email}) re: ${subject}`,
             text: message
         };
