@@ -2,8 +2,6 @@ node_modules
 
 .gitignore
 
-public/assets
-
 .DS_Store
 
 bundle.js

@@ -1,15 +1,420 @@
 webpackJsonp([2],{
 
 /***/ 43:
-/* no static exports found */
-/* all exports used */
-/*!****************************************!*\
-  !*** ./client/components/Projects.jsx ***!
-  \****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.default = Projects;\n\nvar _react = __webpack_require__(/*! react */ 1);\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Projects() {\n    return _react2.default.createElement(\n        'div',\n        { id: 'Projects' },\n        _react2.default.createElement(\n            'div',\n            { className: 'Projectsrow' },\n            _react2.default.createElement(\n                'div',\n                { className: 'Projectscontent' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'Projectsheader' },\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'TV Tracker'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'React, Express, PostgreSQL'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://tv-tracker-brianprice.herokuapp.com/', target: '_blank' },\n                        'View the app here'\n                    ),\n                    _react2.default.createElement('br', null),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://github.com/brianprice88/TV-Tracker', target: '_blank' },\n                        'View the source code here'\n                    )\n                ),\n                _react2.default.createElement(\n                    'figure',\n                    null,\n                    _react2.default.createElement('video', { src: 'assets/TV-Tracker.mov', autoPlay: true, loop: true, muted: true, alt: 'TV Tracker' }),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        '\\u2022 Allowed users to create password-protected accounts with forgotten password security verification, and optional persisted login to avoid having to sign in again'\n                    ),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        '\\u2022 Let users add shows to their favorites list, keep track of which episodes they\\'ve seen and still need to see, plus get episode info as needed'\n                    ),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        '\\u2022 Ran daily automated backend updates, including sending an email to users notifying them about episodes of their favorite shows airing that day'\n                    )\n                )\n            )\n        ),\n        _react2.default.createElement('hr', { className: 'projectDivider' }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Projectsrow' },\n            _react2.default.createElement(\n                'div',\n                { className: 'Projectscontent' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'Projectsheader' },\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'Rock Paper Scissors'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'React, Socket.IO, Express'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://rock-paper-scissors-brianprice.herokuapp.com/', target: '_blank' },\n                        'Play the game here'\n                    ),\n                    _react2.default.createElement('br', null),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://github.com/brianprice88/Rock-Paper-Scissors', target: '_blank' },\n                        'View the source code here'\n                    )\n                ),\n                _react2.default.createElement(\n                    'figure',\n                    null,\n                    _react2.default.createElement('video', { src: 'assets/RockPaperScissors.mov', autoPlay: true, loop: true, muted: true, alt: 'Rock Paper Scissors' }),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        ' Built online multiplayer game where users can create a private room or join an existing room, and compete against a friend'\n                    )\n                )\n            )\n        ),\n        _react2.default.createElement('hr', { className: 'projectDivider' }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Projectsrow' },\n            _react2.default.createElement(\n                'div',\n                { className: 'Projectscontent' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'Projectsheader' },\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'Minesweeper'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'HTML, CSS, JavaScript, MongoDB'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://minesweeper-brian-price.herokuapp.com/', target: '_blank' },\n                        'Play the game here'\n                    ),\n                    _react2.default.createElement('br', null),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://github.com/brianprice88/Minesweeper', target: '_blank' },\n                        'View the source code here'\n                    )\n                ),\n                _react2.default.createElement(\n                    'figure',\n                    null,\n                    _react2.default.createElement('video', { src: 'assets/Minesweeper.mov', autoPlay: true, loop: true, muted: true, alt: 'Minesweeper demo' }),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        ' Created implementation of the classic game with multiple difficulty levels, and option for players to save high scores'\n                    )\n                )\n            )\n        ),\n        _react2.default.createElement('hr', { className: 'projectDivider' }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Projectsrow' },\n            _react2.default.createElement(\n                'div',\n                { className: 'Projectscontent' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'Projectsheader' },\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'REI Product View'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'Express, PostgreSQL, MongoDB'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://github.com/The-Good-Place-HRLA/Product-View-service', target: '_blank' },\n                        'View the source code here'\n                    )\n                ),\n                _react2.default.createElement(\n                    'h1',\n                    { className: 'blinkingText' },\n                    'Hover over an image to enlarge it'\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'ProjectscolumnSDC' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'Projectscontent' },\n                        _react2.default.createElement(\n                            'figure',\n                            null,\n                            _react2.default.createElement('img', { id: 'SDCimg1', src: 'assets/SDC.png', alt: 'REI Product View testing image' }),\n                            _react2.default.createElement(\n                                'figcaption',\n                                null,\n                                'Optimized database for REI product page mockup to allow queries drawn from 10 million unique records, with average response time lowered from >1000ms to 5-10ms'\n                            )\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'ProjectscolumnSDC' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'Projectscontent' },\n                        _react2.default.createElement(\n                            'figure',\n                            null,\n                            _react2.default.createElement('img', { id: 'SDCimg2', src: 'assets/SDC2.png', alt: 'REI Product View testing image' }),\n                            _react2.default.createElement(\n                                'figcaption',\n                                null,\n                                'Horizontally scaled application across multiple AWS EC2 instances using proxy load balancer, so requests had 0% errors and 60ms latency at 3500+ clients per second'\n                            )\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'ProjectscolumnSDC' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'Projectscontent' },\n                        _react2.default.createElement(\n                            'figure',\n                            null,\n                            _react2.default.createElement('img', { id: 'SDCimg3', src: 'assets/SDC3.png', alt: 'REI Product View testing image' }),\n                            _react2.default.createElement(\n                                'figcaption',\n                                null,\n                                'Applied server-side rendering, bundle compression, and caching to increase initial page load speed by more than five times'\n                            )\n                        )\n                    )\n                )\n            )\n        ),\n        _react2.default.createElement('hr', { className: 'projectDivider' }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Projectsrow' },\n            _react2.default.createElement(\n                'div',\n                { className: 'Projectscontent' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'Projectsheader' },\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'Trafalgar trip page'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'React, Express, MongoDB'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://github.com/Front-End-Capstone-hrla34/Searchbar', target: '_blank' },\n                        'View the source code here'\n                    )\n                ),\n                _react2.default.createElement(\n                    'figure',\n                    null,\n                    _react2.default.createElement('video', { src: 'assets/Trafalgar.mp4', autoPlay: true, loop: true, muted: true, alt: 'Trafalgar trip page demo' }),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        '\\u2022 Built model of site\\u2019s search bar and trip details components, ensuring 15 trip- specific properties would be accurately updated throughout frequent page re-renderings'\n                    ),\n                    _react2.default.createElement(\n                        'figcaption',\n                        null,\n                        '\\u2022 Routed user queries through server to database, providing clients with results drawn from 100 realistic trips that are searchable by continents, countries, and cities'\n                    )\n                )\n            )\n        ),\n        _react2.default.createElement('hr', { className: 'projectDivider' }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Projectsrow' },\n            _react2.default.createElement(\n                'div',\n                { className: 'Projectscontent' },\n                _react2.default.createElement(\n                    'div',\n                    { className: 'Projectsheader' },\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'Geofencing-notification mobile app'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'p',\n                        null,\n                        _react2.default.createElement(\n                            'strong',\n                            null,\n                            'React Native, GraphQL, MongoDB'\n                        )\n                    ),\n                    _react2.default.createElement(\n                        'a',\n                        { href: 'https://github.com/hrla34-MVP/Server-database', target: '_blank' },\n                        'View the source code here'\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'ProjectscolumnMVP' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'Projectscontent' },\n                        _react2.default.createElement(\n                            'figure',\n                            null,\n                            _react2.default.createElement('img', { src: 'assets/Geofencing2.png', alt: 'Geofencing app image' }),\n                            _react2.default.createElement(\n                                'figcaption',\n                                null,\n                                'To meet project\\u2019s one-week deadline, constructed the entire backend server and database, then deployed them on Heroku to allow clients global access'\n                            )\n                        )\n                    )\n                ),\n                _react2.default.createElement(\n                    'div',\n                    { className: 'ProjectscolumnMVP' },\n                    _react2.default.createElement(\n                        'div',\n                        { className: 'Projectscontent' },\n                        _react2.default.createElement(\n                            'figure',\n                            null,\n                            _react2.default.createElement('img', { src: 'assets/Geofencing.png', alt: 'Geofencing app image' }),\n                            _react2.default.createElement(\n                                'figcaption',\n                                null,\n                                'Wrote all of app\\u2019s front-end logic for users to save desired geofenced areas along with notifications to be delivered upon entering and/or exiting a region'\n                            )\n                        )\n                    )\n                )\n            )\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'footer' },\n            _react2.default.createElement(\n                'a',\n                { id: 'backToTop', href: '#Navbar' },\n                'Return to top'\n            )\n        )\n    );\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNDMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vY2xpZW50L2NvbXBvbmVudHMvUHJvamVjdHMuanN4PzBlOTMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQcm9qZWN0cygpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8ZGl2IGlkPSdQcm9qZWN0cyc+XG5cbjxkaXYgY2xhc3NOYW1lPVwiUHJvamVjdHNyb3dcIj4gXG48ZGl2IGNsYXNzTmFtZT1cIlByb2plY3RzY29udGVudFwiPiBcbjxkaXYgY2xhc3NOYW1lPSdQcm9qZWN0c2hlYWRlcic+IFxuPHA+PHN0cm9uZz5UViBUcmFja2VyPC9zdHJvbmc+PC9wPiBcbjxwPjxzdHJvbmc+UmVhY3QsIEV4cHJlc3MsIFBvc3RncmVTUUw8L3N0cm9uZz48L3A+IFxuPGEgaHJlZj0naHR0cHM6Ly90di10cmFja2VyLWJyaWFucHJpY2UuaGVyb2t1YXBwLmNvbS8nIHRhcmdldD1cIl9ibGFua1wiPlZpZXcgdGhlIGFwcCBoZXJlPC9hPiBcbjxiciAvPiBcbjxhIGhyZWY9J2h0dHBzOi8vZ2l0aHViLmNvbS9icmlhbnByaWNlODgvVFYtVHJhY2tlcicgdGFyZ2V0PVwiX2JsYW5rXCI+VmlldyB0aGUgc291cmNlIGNvZGUgaGVyZTwvYT4gXG48L2Rpdj4gXG48ZmlndXJlPiBcbiAgICA8dmlkZW8gc3JjPVwiYXNzZXRzL1RWLVRyYWNrZXIubW92XCIgYXV0b1BsYXkgbG9vcCBtdXRlZCBhbHQ9XCJUViBUcmFja2VyXCIgLz4gXG4gICAgPGZpZ2NhcHRpb24+IFxuICAgICAgICAmIzgyMjY7IEFsbG93ZWQgdXNlcnMgdG8gY3JlYXRlIHBhc3N3b3JkLXByb3RlY3RlZCBhY2NvdW50cyB3aXRoIGZvcmdvdHRlbiBwYXNzd29yZCBzZWN1cml0eSB2ZXJpZmljYXRpb24sIGFuZCBvcHRpb25hbCBwZXJzaXN0ZWQgbG9naW4gdG8gYXZvaWQgaGF2aW5nIHRvIHNpZ24gaW4gYWdhaW4gXG4gICAgICAgIDwvZmlnY2FwdGlvbj4gXG4gICAgICAgIDxmaWdjYXB0aW9uPiBcbiAgICAgICAgICAgICYjODIyNjsgTGV0IHVzZXJzIGFkZCBzaG93cyB0byB0aGVpciBmYXZvcml0ZXMgbGlzdCwga2VlcCB0cmFjayBvZiB3aGljaCBlcGlzb2RlcyB0aGV5J3ZlIHNlZW4gYW5kIHN0aWxsIG5lZWQgdG8gc2VlLCBwbHVzIGdldCBlcGlzb2RlIGluZm8gYXMgbmVlZGVkIFxuICAgICAgICAgICAgPC9maWdjYXB0aW9uPiBcbiAgICAgICAgICAgIDxmaWdjYXB0aW9uPiBcbiAgICAgICAgICAgICAgICAmIzgyMjY7IFJhbiBkYWlseSBhdXRvbWF0ZWQgYmFja2VuZCB1cGRhdGVzLCBpbmNsdWRpbmcgc2VuZGluZyBhbiBlbWFpbCB0byB1c2VycyBub3RpZnlpbmcgdGhlbSBhYm91dCBlcGlzb2RlcyBvZiB0aGVpciBmYXZvcml0ZSBzaG93cyBhaXJpbmcgdGhhdCBkYXkgXG4gICAgPC9maWdjYXB0aW9uPiBcbiAgICA8L2ZpZ3VyZT4gXG4gICAgPC9kaXY+IFxuICAgIDwvZGl2PlxuXG4gICAgICAgICAgICA8aHIgY2xhc3NOYW1lPSdwcm9qZWN0RGl2aWRlcicgLz4gIFxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3Rzcm93XCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RzaGVhZGVyJz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+Um9jayBQYXBlciBTY2lzc29yczwvc3Ryb25nPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+UmVhY3QsIFNvY2tldC5JTywgRXhwcmVzczwvc3Ryb25nPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9J2h0dHBzOi8vcm9jay1wYXBlci1zY2lzc29ycy1icmlhbnByaWNlLmhlcm9rdWFwcC5jb20vJyB0YXJnZXQ9XCJfYmxhbmtcIj5QbGF5IHRoZSBnYW1lIGhlcmU8L2E+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YnIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9J2h0dHBzOi8vZ2l0aHViLmNvbS9icmlhbnByaWNlODgvUm9jay1QYXBlci1TY2lzc29ycycgdGFyZ2V0PVwiX2JsYW5rXCI+VmlldyB0aGUgc291cmNlIGNvZGUgaGVyZTwvYT5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxmaWd1cmU+XG4gICAgICAgICAgICAgICAgICAgICAgICA8dmlkZW8gc3JjPVwiYXNzZXRzL1JvY2tQYXBlclNjaXNzb3JzLm1vdlwiIGF1dG9QbGF5IGxvb3AgbXV0ZWQgYWx0PVwiUm9jayBQYXBlciBTY2lzc29yc1wiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZmlnY2FwdGlvbj4gQnVpbHQgb25saW5lIG11bHRpcGxheWVyIGdhbWUgd2hlcmUgdXNlcnMgY2FuIGNyZWF0ZSBhIHByaXZhdGUgcm9vbSBvciBqb2luIGFuIGV4aXN0aW5nIHJvb20sIGFuZCBjb21wZXRlIGFnYWluc3QgYSBmcmllbmQgXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2ZpZ2NhcHRpb24+XG4gICAgICAgICAgICAgICAgICAgIDwvZmlndXJlPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDxociBjbGFzc05hbWU9J3Byb2plY3REaXZpZGVyJyAvPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3Rzcm93XCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RzaGVhZGVyJz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+TWluZXN3ZWVwZXI8L3N0cm9uZz48L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPkhUTUwsIENTUywgSmF2YVNjcmlwdCwgTW9uZ29EQjwvc3Ryb25nPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9J2h0dHBzOi8vbWluZXN3ZWVwZXItYnJpYW4tcHJpY2UuaGVyb2t1YXBwLmNvbS8nIHRhcmdldD1cIl9ibGFua1wiPlBsYXkgdGhlIGdhbWUgaGVyZTwvYT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxiciAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0naHR0cHM6Ly9naXRodWIuY29tL2JyaWFucHJpY2U4OC9NaW5lc3dlZXBlcicgdGFyZ2V0PVwiX2JsYW5rXCI+VmlldyB0aGUgc291cmNlIGNvZGUgaGVyZTwvYT5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxmaWd1cmU+XG4gICAgICAgICAgICAgICAgICAgICAgICA8dmlkZW8gc3JjPVwiYXNzZXRzL01pbmVzd2VlcGVyLm1vdlwiIGF1dG9QbGF5IGxvb3AgbXV0ZWQgYWx0PVwiTWluZXN3ZWVwZXIgZGVtb1wiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZmlnY2FwdGlvbj4gQ3JlYXRlZCBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgY2xhc3NpYyBnYW1lIHdpdGggbXVsdGlwbGUgZGlmZmljdWx0eSBsZXZlbHMsIGFuZCBvcHRpb24gZm9yIHBsYXllcnMgdG8gc2F2ZSBoaWdoIHNjb3JlcyBcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZmlnY2FwdGlvbj5cbiAgICAgICAgICAgICAgICAgICAgPC9maWd1cmU+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgPGhyIGNsYXNzTmFtZT0ncHJvamVjdERpdmlkZXInIC8+XG5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdQcm9qZWN0c3Jvdyc+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RzY29udGVudCc+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdQcm9qZWN0c2hlYWRlcic+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPlJFSSBQcm9kdWN0IFZpZXc8L3N0cm9uZz48L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPkV4cHJlc3MsIFBvc3RncmVTUUwsIE1vbmdvREI8L3N0cm9uZz48L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSdodHRwczovL2dpdGh1Yi5jb20vVGhlLUdvb2QtUGxhY2UtSFJMQS9Qcm9kdWN0LVZpZXctc2VydmljZScgdGFyZ2V0PVwiX2JsYW5rXCI+VmlldyB0aGUgc291cmNlIGNvZGUgaGVyZTwvYT5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0nYmxpbmtpbmdUZXh0Jz5Ib3ZlciBvdmVyIGFuIGltYWdlIHRvIGVubGFyZ2UgaXQ8L2gxPlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3RzY29sdW1uU0RDXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3RzY29udGVudFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxmaWd1cmU+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgaWQ9J1NEQ2ltZzEnIHNyYz1cImFzc2V0cy9TREMucG5nXCIgYWx0PVwiUkVJIFByb2R1Y3QgVmlldyB0ZXN0aW5nIGltYWdlXCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGZpZ2NhcHRpb24+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBPcHRpbWl6ZWQgZGF0YWJhc2UgZm9yIFJFSSBwcm9kdWN0IHBhZ2UgbW9ja3VwIHRvIGFsbG93IHF1ZXJpZXMgZHJhd24gZnJvbSAxMCBtaWxsaW9uIHVuaXF1ZSByZWNvcmRzLCB3aXRoIGF2ZXJhZ2UgcmVzcG9uc2UgdGltZSBsb3dlcmVkIGZyb20gPjEwMDBtcyB0byA1LTEwbXNcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9maWdjYXB0aW9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZmlndXJlPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3RzY29sdW1uU0RDXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3RzY29udGVudFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxmaWd1cmU+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgaWQ9J1NEQ2ltZzInIHNyYz1cImFzc2V0cy9TREMyLnBuZ1wiIGFsdD1cIlJFSSBQcm9kdWN0IFZpZXcgdGVzdGluZyBpbWFnZVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxmaWdjYXB0aW9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSG9yaXpvbnRhbGx5IHNjYWxlZCBhcHBsaWNhdGlvbiBhY3Jvc3MgbXVsdGlwbGUgQVdTIEVDMiBpbnN0YW5jZXMgdXNpbmcgcHJveHkgbG9hZCBiYWxhbmNlciwgc28gcmVxdWVzdHMgaGFkIDAlIGVycm9ycyBhbmQgNjBtcyBsYXRlbmN5IGF0IDM1MDArIGNsaWVudHMgcGVyIHNlY29uZFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2ZpZ2NhcHRpb24+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9maWd1cmU+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdQcm9qZWN0c2NvbHVtblNEQyc+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3RzY29udGVudFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxmaWd1cmU+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgaWQ9J1NEQ2ltZzMnIHNyYz1cImFzc2V0cy9TREMzLnBuZ1wiIGFsdD1cIlJFSSBQcm9kdWN0IFZpZXcgdGVzdGluZyBpbWFnZVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxmaWdjYXB0aW9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwbGllZCBzZXJ2ZXItc2lkZSByZW5kZXJpbmcsIGJ1bmRsZSBjb21wcmVzc2lvbiwgYW5kIGNhY2hpbmcgdG8gaW5jcmVhc2UgaW5pdGlhbCBwYWdlIGxvYWQgc3BlZWQgYnkgbW9yZSB0aGFuIGZpdmUgdGltZXNcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9maWdjYXB0aW9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZmlndXJlPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDxociBjbGFzc05hbWU9J3Byb2plY3REaXZpZGVyJyAvPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3Rzcm93XCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RzaGVhZGVyJz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+VHJhZmFsZ2FyIHRyaXAgcGFnZTwvc3Ryb25nPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPjxzdHJvbmc+UmVhY3QsIEV4cHJlc3MsIE1vbmdvREI8L3N0cm9uZz48L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSdodHRwczovL2dpdGh1Yi5jb20vRnJvbnQtRW5kLUNhcHN0b25lLWhybGEzNC9TZWFyY2hiYXInIHRhcmdldD1cIl9ibGFua1wiPlZpZXcgdGhlIHNvdXJjZSBjb2RlIGhlcmU8L2E+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZmlndXJlPlxuICAgICAgICAgICAgICAgICAgICAgICAgPHZpZGVvIHNyYz1cImFzc2V0cy9UcmFmYWxnYXIubXA0XCIgYXV0b1BsYXkgbG9vcCBtdXRlZCBhbHQ9XCJUcmFmYWxnYXIgdHJpcCBwYWdlIGRlbW9cIiAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGZpZ2NhcHRpb24+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgJiM4MjI2OyBCdWlsdCBtb2RlbCBvZiBzaXRl4oCZcyBzZWFyY2ggYmFyIGFuZCB0cmlwIGRldGFpbHMgY29tcG9uZW50cywgZW5zdXJpbmcgMTUgdHJpcC1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcGVjaWZpYyBwcm9wZXJ0aWVzIHdvdWxkIGJlIGFjY3VyYXRlbHkgdXBkYXRlZCB0aHJvdWdob3V0IGZyZXF1ZW50IHBhZ2UgcmUtcmVuZGVyaW5nc1xuICAgICAgICAgICAgICAgICAgICA8L2ZpZ2NhcHRpb24+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZmlnY2FwdGlvbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmIzgyMjY7IFJvdXRlZCB1c2VyIHF1ZXJpZXMgdGhyb3VnaCBzZXJ2ZXIgdG8gZGF0YWJhc2UsIHByb3ZpZGluZyBjbGllbnRzIHdpdGggcmVzdWx0c1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyYXduIGZyb20gMTAwIHJlYWxpc3RpYyB0cmlwcyB0aGF0IGFyZSBzZWFyY2hhYmxlIGJ5IGNvbnRpbmVudHMsIGNvdW50cmllcywgYW5kIGNpdGllc1xuICAgICAgICAgICAgICAgICAgICA8L2ZpZ2NhcHRpb24+XG4gICAgICAgICAgICAgICAgICAgIDwvZmlndXJlPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDxociBjbGFzc05hbWU9J3Byb2plY3REaXZpZGVyJyAvPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIlByb2plY3Rzcm93XCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J1Byb2plY3RzY29udGVudCc+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdQcm9qZWN0c2hlYWRlcic+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPkdlb2ZlbmNpbmctbm90aWZpY2F0aW9uIG1vYmlsZSBhcHA8L3N0cm9uZz48L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPlJlYWN0IE5hdGl2ZSwgR3JhcGhRTCwgTW9uZ29EQjwvc3Ryb25nPjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9J2h0dHBzOi8vZ2l0aHViLmNvbS9ocmxhMzQtTVZQL1NlcnZlci1kYXRhYmFzZScgdGFyZ2V0PVwiX2JsYW5rXCI+VmlldyB0aGUgc291cmNlIGNvZGUgaGVyZTwvYT5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbHVtbk1WUFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZmlndXJlPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0nYXNzZXRzL0dlb2ZlbmNpbmcyLnBuZycgYWx0PVwiR2VvZmVuY2luZyBhcHAgaW1hZ2VcIiAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZmlnY2FwdGlvbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvIG1lZXQgcHJvamVjdOKAmXMgb25lLXdlZWsgZGVhZGxpbmUsIGNvbnN0cnVjdGVkIHRoZSBlbnRpcmUgYmFja2VuZCBzZXJ2ZXIgYW5kIGRhdGFiYXNlLCB0aGVuIGRlcGxveWVkIHRoZW0gb24gSGVyb2t1IHRvIGFsbG93IGNsaWVudHMgZ2xvYmFsIGFjY2Vzc1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZmlnY2FwdGlvbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2ZpZ3VyZT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbHVtbk1WUFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJQcm9qZWN0c2NvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZmlndXJlPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0nYXNzZXRzL0dlb2ZlbmNpbmcucG5nJyBhbHQ9XCJHZW9mZW5jaW5nIGFwcCBpbWFnZVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxmaWdjYXB0aW9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV3JvdGUgYWxsIG9mIGFwcOKAmXMgZnJvbnQtZW5kIGxvZ2ljIGZvciB1c2VycyB0byBzYXZlIGRlc2lyZWQgZ2VvZmVuY2VkIGFyZWFzIGFsb25nIHdpdGhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vdGlmaWNhdGlvbnMgdG8gYmUgZGVsaXZlcmVkIHVwb24gZW50ZXJpbmcgYW5kL29yIGV4aXRpbmcgYSByZWdpb25cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9maWdjYXB0aW9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZmlndXJlPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdmb290ZXInPlxuICAgICAgICAgICAgICAgIDxhIGlkPSdiYWNrVG9Ub3AnIGhyZWY9JyNOYXZiYXInPlJldHVybiB0byB0b3A8L2E+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgKVxufVxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyBjbGllbnQvY29tcG9uZW50cy9Qcm9qZWN0cy5qc3giXSwibWFwcGluZ3MiOiI7Ozs7O0FBRUE7QUFDQTtBQUhBO0FBQ0E7Ozs7O0FBQ0E7QUFDQTtBQUNBO0FBQUE7QUFFQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ0E7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBTEE7QUFPQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFHQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBR0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQVJBO0FBUkE7QUFEQTtBQXdCQTtBQUVBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFMQTtBQU9BO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUZBO0FBUkE7QUFEQTtBQWlCQTtBQUVBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFMQTtBQU9BO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUZBO0FBUkE7QUFEQTtBQWlCQTtBQUVBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFIQTtBQU1BO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFGQTtBQURBO0FBREE7QUFVQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFGQTtBQURBO0FBREE7QUFVQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFGQTtBQURBO0FBREE7QUE1QkE7QUFEQTtBQTBDQTtBQUVBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFIQTtBQUtBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUlBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFOQTtBQU5BO0FBREE7QUFxQkE7QUFFQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBSEE7QUFNQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFGQTtBQURBO0FBREE7QUFVQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFGQTtBQURBO0FBREE7QUFqQkE7QUFEQTtBQWdDQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREE7QUFyS0E7QUEwS0EiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///43\n");
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = Projects;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Projects() {
+    return _react2.default.createElement(
+        'div',
+        { id: 'Projects' },
+        _react2.default.createElement(
+            'div',
+            { className: 'Projectsrow' },
+            _react2.default.createElement(
+                'div',
+                { className: 'Projectscontent' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'Projectsheader' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'TV Tracker'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'React, Express, PostgreSQL'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://tv-tracker-brianprice.herokuapp.com/', target: '_blank' },
+                        'View the app here'
+                    ),
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/brianprice88/TV-Tracker', target: '_blank' },
+                        'View the source code here'
+                    )
+                ),
+                _react2.default.createElement(
+                    'figure',
+                    null,
+                    _react2.default.createElement('video', { src: 'assets/TV-Tracker.mov', autoPlay: true, loop: true, muted: true, alt: 'TV Tracker' }),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        '\u2022 Allowed users to create password-protected accounts with forgotten password security verification, and optional persisted login to avoid having to sign in again'
+                    ),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        '\u2022 Let users add shows to their favorites list, keep track of which episodes they\'ve seen and still need to see, plus get episode info as needed'
+                    ),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        '\u2022 Ran daily automated backend updates, including sending an email to users notifying them about episodes of their favorite shows airing that day'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement('hr', { className: 'projectDivider' }),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projectsrow' },
+            _react2.default.createElement(
+                'div',
+                { className: 'Projectscontent' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'Projectsheader' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'Rock Paper Scissors'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'React, Socket.IO, Express'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://rock-paper-scissors-brianprice.herokuapp.com/', target: '_blank' },
+                        'Play the game here'
+                    ),
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/brianprice88/Rock-Paper-Scissors', target: '_blank' },
+                        'View the source code here'
+                    )
+                ),
+                _react2.default.createElement(
+                    'figure',
+                    null,
+                    _react2.default.createElement('video', { src: 'assets/RockPaperScissors.mov', autoPlay: true, loop: true, muted: true, alt: 'Rock Paper Scissors' }),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        ' Built online multiplayer game where users can create a private room or join an existing room, and compete against a friend'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement('hr', { className: 'projectDivider' }),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projectsrow' },
+            _react2.default.createElement(
+                'div',
+                { className: 'Projectscontent' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'Projectsheader' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'Minesweeper'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'HTML, CSS, JavaScript, MongoDB'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://minesweeper-brian-price.herokuapp.com/', target: '_blank' },
+                        'Play the game here'
+                    ),
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/brianprice88/Minesweeper', target: '_blank' },
+                        'View the source code here'
+                    )
+                ),
+                _react2.default.createElement(
+                    'figure',
+                    null,
+                    _react2.default.createElement('video', { src: 'assets/Minesweeper.mov', autoPlay: true, loop: true, muted: true, alt: 'Minesweeper demo' }),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        ' Created implementation of the classic game with multiple difficulty levels, and option for players to save high scores'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement('hr', { className: 'projectDivider' }),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projectsrow' },
+            _react2.default.createElement(
+                'div',
+                { className: 'Projectscontent' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'Projectsheader' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'REI Product View'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'Express, PostgreSQL, MongoDB'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/The-Good-Place-HRLA/Product-View-service', target: '_blank' },
+                        'View the source code here'
+                    )
+                ),
+                _react2.default.createElement(
+                    'h1',
+                    { className: 'blinkingText' },
+                    'Hover over an image to enlarge it'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ProjectscolumnSDC' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'Projectscontent' },
+                        _react2.default.createElement(
+                            'figure',
+                            null,
+                            _react2.default.createElement('img', { id: 'SDCimg1', src: 'assets/SDC.png', alt: 'REI Product View testing image' }),
+                            _react2.default.createElement(
+                                'figcaption',
+                                null,
+                                'Optimized database for REI product page mockup to allow queries drawn from 10 million unique records, with average response time lowered from >1000ms to 5-10ms'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ProjectscolumnSDC' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'Projectscontent' },
+                        _react2.default.createElement(
+                            'figure',
+                            null,
+                            _react2.default.createElement('img', { id: 'SDCimg2', src: 'assets/SDC2.png', alt: 'REI Product View testing image' }),
+                            _react2.default.createElement(
+                                'figcaption',
+                                null,
+                                'Horizontally scaled application across multiple AWS EC2 instances using proxy load balancer, so requests had 0% errors and 60ms latency at 3500+ clients per second'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ProjectscolumnSDC' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'Projectscontent' },
+                        _react2.default.createElement(
+                            'figure',
+                            null,
+                            _react2.default.createElement('img', { id: 'SDCimg3', src: 'assets/SDC3.png', alt: 'REI Product View testing image' }),
+                            _react2.default.createElement(
+                                'figcaption',
+                                null,
+                                'Applied server-side rendering, bundle compression, and caching to increase initial page load speed by more than five times'
+                            )
+                        )
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement('hr', { className: 'projectDivider' }),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projectsrow' },
+            _react2.default.createElement(
+                'div',
+                { className: 'Projectscontent' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'Projectsheader' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'Trafalgar trip page'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'React, Express, MongoDB'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/Front-End-Capstone-hrla34/Searchbar', target: '_blank' },
+                        'View the source code here'
+                    )
+                ),
+                _react2.default.createElement(
+                    'figure',
+                    null,
+                    _react2.default.createElement('video', { src: 'assets/Trafalgar.mp4', autoPlay: true, loop: true, muted: true, alt: 'Trafalgar trip page demo' }),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        '\u2022 Built model of site\u2019s search bar and trip details components, ensuring 15 trip- specific properties would be accurately updated throughout frequent page re-renderings'
+                    ),
+                    _react2.default.createElement(
+                        'figcaption',
+                        null,
+                        '\u2022 Routed user queries through server to database, providing clients with results drawn from 100 realistic trips that are searchable by continents, countries, and cities'
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement('hr', { className: 'projectDivider' }),
+        _react2.default.createElement(
+            'div',
+            { className: 'Projectsrow' },
+            _react2.default.createElement(
+                'div',
+                { className: 'Projectscontent' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'Projectsheader' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'Geofencing-notification mobile app'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        _react2.default.createElement(
+                            'strong',
+                            null,
+                            'React Native, GraphQL, MongoDB'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { href: 'https://github.com/hrla34-MVP/Server-database', target: '_blank' },
+                        'View the source code here'
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ProjectscolumnMVP' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'Projectscontent' },
+                        _react2.default.createElement(
+                            'figure',
+                            null,
+                            _react2.default.createElement('img', { src: 'assets/Geofencing2.png', alt: 'Geofencing app image' }),
+                            _react2.default.createElement(
+                                'figcaption',
+                                null,
+                                'To meet project\u2019s one-week deadline, constructed the entire backend server and database, then deployed them on Heroku to allow clients global access'
+                            )
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ProjectscolumnMVP' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'Projectscontent' },
+                        _react2.default.createElement(
+                            'figure',
+                            null,
+                            _react2.default.createElement('img', { src: 'assets/Geofencing.png', alt: 'Geofencing app image' }),
+                            _react2.default.createElement(
+                                'figcaption',
+                                null,
+                                'Wrote all of app\u2019s front-end logic for users to save desired geofenced areas along with notifications to be delivered upon entering and/or exiting a region'
+                            )
+                        )
+                    )
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'footer' },
+            _react2.default.createElement(
+                'a',
+                { id: 'backToTop', href: '#Navbar' },
+                'Return to top'
+            )
+        )
+    );
+}
 
 /***/ })
 
