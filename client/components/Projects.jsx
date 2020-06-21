@@ -4,6 +4,32 @@ export default function Projects() {
     return (
         <div id='Projects'>
 
+<div className="Projectsrow"> 
+<div className="Projectscontent"> 
+<div className='Projectsheader'> 
+<p><strong>TV Tracker</strong></p> 
+<p><strong>React, Express, PostgreSQL</strong></p> 
+<a href='https://tv-tracker-brianprice.herokuapp.com/' target="_blank">View the app here</a> 
+<br /> 
+<a href='https://github.com/brianprice88/TV-Tracker' target="_blank">View the source code here</a> 
+</div> 
+<figure> 
+    <video src="assets/TV-Tracker.mov" autoPlay loop muted alt="TV Tracker" /> 
+    <figcaption> 
+        &#8226; Allowed users to create password-protected accounts with forgotten password security verification, and optional persisted login to avoid having to sign in again 
+        </figcaption> 
+        <figcaption> 
+            &#8226; Let users add shows to their favorites list, keep track of which episodes they've seen and still need to see, plus get episode info as needed 
+            </figcaption> 
+            <figcaption> 
+                &#8226; Ran daily automated backend updates, including sending an email to users notifying them about episodes of their favorite shows airing that day 
+    </figcaption> 
+    </figure> 
+    </div> 
+    </div>
+
+            <hr className='projectDivider' />  
+
             <div className="Projectsrow">
                 <div className="Projectscontent">
                     <div className='Projectsheader'>
@@ -15,6 +41,8 @@ export default function Projects() {
                     </div>
                     <figure>
                         <video src="assets/RockPaperScissors.mov" autoPlay loop muted alt="Rock Paper Scissors" />
+                        <figcaption> Built online multiplayer game where users can create a private room or join an existing room, and compete against a friend 
+                        </figcaption>
                     </figure>
                 </div>
             </div>
@@ -32,6 +60,8 @@ export default function Projects() {
                     </div>
                     <figure>
                         <video src="assets/Minesweeper.mov" autoPlay loop muted alt="Minesweeper demo" />
+                        <figcaption> Created implementation of the classic game with multiple difficulty levels, and option for players to save high scores 
+                        </figcaption>
                     </figure>
                 </div>
             </div>
