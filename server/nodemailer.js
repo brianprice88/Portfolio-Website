@@ -1,5 +1,3 @@
-const gmail = require('../config')
-
 module.exports = {
 
     contactMe(req, res) {
@@ -7,13 +5,8 @@ module.exports = {
 
         const nodemailer = require('nodemailer');
 
-        var user = gmail.user;
-        var pass = gmail.password;
-
-        if (process.env.NODE_ENV === 'production') { // for deployment, use the environment variables on Heroku
-          user = process.env.user;
-          pass = process.env.password
-        }
+        let user = process.env.GMAILUSER;
+        let pass = process.env.GMAILPASSWORD;
 
         const transporter = nodemailer.createTransport({
             service: 'gmail',
